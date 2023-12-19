@@ -1,5 +1,3 @@
-function startPage() {
-    
-}
+function startPage() {}
 
 export default startPage;
