@@ -7,11 +7,11 @@ import path from 'path';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const routes = (app) => {
-  const frontEndApp = path.join(__dirname, '../../frontend/pages')
+  const frontEndApp = path.join(__dirname, '../../frontend/pages');
+
   app.route('/').get((req, res) => {
     res.status(200).sendFile(path.join(frontEndApp, 'index.html'));
   });
-  app.use(express.json());
 };
 
 export default routes;
