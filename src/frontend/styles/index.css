@@ -8,6 +8,29 @@ body {
 }
 
 #pHeader {
-  background-color: lightslategray;
-  height: 200px;
+  background-color: rgb(153, 170, 187);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.navgation {
+  margin-right: auto;
+  display: flex;
+}
+.navgation a{
+  color: rgb(27, 25, 25);
+  padding: 8px 12px;
+  text-decoration: none;
+}
+.navgation a:hover{
+  color: brown;
+}
+
+.logo {
+  margin: auto;
+}
+
+.themeDW {
+  margin: auto;
 }
