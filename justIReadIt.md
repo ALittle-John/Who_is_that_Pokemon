@@ -11,3 +11,7 @@ pages - estrutura e funcionalidade de páginas. Terá páginas de: start da pág
 routes - gerenciamento de rotas e funções de controllers;
 
 styles - padronização de tags, campos e páginas.
+
+# Foco em front primeiro sem se preocupar com rotas e links.
+
+Depois Back com docker compose.

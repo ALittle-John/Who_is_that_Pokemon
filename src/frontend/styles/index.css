@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+#pHeader {
+  background-color: rgb(153, 170, 187);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: static;
+}
+
+#toggleMenu {
+  position: relative;
+  width: 10%;
+}
+
+.navgation {
+  margin-right: auto;
+  display: flex;
+}
+/* .navgation a.hidden{
+  display: none;
+}
+.navgation a.show{
+  display: block;
+} */
+.navgation a{
+  color: rgb(27, 25, 25);
+  padding: 8px 12px;
+  text-decoration: none;
+  display: none;
+}
+.navgation a.show{
+  display: block;
+}
+.navgation a:hover{
+  color: brown;
+}
+
+.logo {
+  margin: auto;
+}
+
+.themeDW {
+  margin: auto;
+}
