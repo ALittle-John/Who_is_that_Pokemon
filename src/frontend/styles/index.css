@@ -15,38 +15,44 @@ body {
   position: static;
 }
 
-#toggleMenu {
-  position: relative;
-  width: 10%;
-}
-
 .navgation {
-  margin-right: auto;
   display: flex;
+  margin-left: 1%;
 }
-/* .navgation a.hidden{
+.buttonMenu {
+  cursor: pointer;
+  background-color: transparent;
+  position: static;
+  height: 50px;
+}
+#imageMenu {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.navgation a {
   display: none;
 }
-.navgation a.show{
-  display: block;
-} */
-.navgation a{
-  color: rgb(27, 25, 25);
-  padding: 8px 12px;
+.navgation a.show {
+  display: flex;
+  margin: auto;
   text-decoration: none;
-  display: none;
+  color: black;
+  margin-left: 15px;
 }
-.navgation a.show{
-  display: block;
-}
-.navgation a:hover{
+.navgation a.show:hover {
   color: brown;
 }
 
 .logo {
-  margin: auto;
+  display: flex;
+  margin: 50%;
+  position: absolute;
 }
 
 .themeDW {
-  margin: auto;
+  display: flex;
+  margin-left: 95%;
+  position: absolute;
 }
