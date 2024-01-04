@@ -1,0 +1,23 @@
+body {
+  transition: 0.5s linear, color 0.5s linear;
+}
+
+body.dark {
+  background-color: rgb(15, 15, 17);
+  color: #fff;
+}
+
+#themeDW {
+  position: fixed;
+}
+
+#DarkMode {
+  background-color: transparent;
+  border-style: none;
+}
+
+#generalTheme {
+  cursor: pointer;
+  display: inline-block;
+  width: 50px;
+}

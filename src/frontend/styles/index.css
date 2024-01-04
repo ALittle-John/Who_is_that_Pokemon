@@ -12,7 +12,6 @@ body {
   height: 80px;
   display: flex;
   align-items: center;
-  position: static;
 }
 
 .navgation {
@@ -24,12 +23,12 @@ body {
   background-color: transparent;
   position: static;
   height: 50px;
+  border-style: none;
 }
 #imageMenu {
   cursor: pointer;
   height: 100%;
   width: 100%;
-  cursor: pointer;
 }
 .navgation a {
   display: none;
@@ -51,8 +50,10 @@ body {
   position: absolute;
 }
 
-.themeDW {
+#themeDW {
   display: flex;
   margin-left: 95%;
   position: absolute;
 }
+
+/* no responsiveness yet */

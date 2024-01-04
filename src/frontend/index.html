@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="theme/theme.css">
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Quiz Pokemon</title>
   </head>
@@ -28,11 +29,19 @@
         </a>
       </nav>
       <div class="logo">Logo</div>
-      <div class="themeDW">Dark Mode</div>
+      <div id="themeDW">
+        <button value="button" id="DarkMode">
+          <img
+              src="../assets/icons8-pokemon-96.png"
+              id="generalTheme"
+            ></img>
+        </button>
+      </div>
     </header>
     <main id="pMain"></main>
     <footer id="pFooter"></footer>
 
+    <script type="module" src="theme/theme.js"></script>
     <script type="module" src="index.js"></script>
   </body>
 </html>
