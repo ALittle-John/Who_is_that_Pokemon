@@ -56,4 +56,34 @@ body {
   position: absolute;
 }
 
+#types {
+  display: flex;
+  justify-content: center;
+}
+
+.typeTitle {
+  display: flex;
+  flex-direction: column;
+  /* Colocar acima dos icones */
+}
+
+.boxTypes {
+  display: block;
+  margin: 10px;
+}
+
+.icon {
+  border-radius: 100%;
+  height: 65px;
+  width: 65px;
+  margin-inline: 10px;
+  border-style: none;
+  background-color: transparent;
+}
+.icon:hover {
+  transform: scale(110%);
+  cursor: pointer;
+}
+
+
 /* no responsiveness yet */

@@ -12,11 +12,11 @@
     <header id="pHeader">
       <nav class="navgation">
         <!-- Put up the "a" in the svg -->
-        <button class="buttonMenu">
+        <button class="buttonMenu" title="Menu">
           <img
             src="../assets/menu.svg"
-            id="imageMenu"
-          ></img>
+            id="imageMenu">
+          </img>
         </button>
         <a href="#" rel="noopener noreferrer">
           My profile
@@ -30,15 +30,93 @@
       </nav>
       <div class="logo">Logo</div>
       <div id="themeDW">
-        <button value="button" id="DarkMode">
+        <button value="button" id="DarkMode" title="Dark mode">
           <img
               src="../assets/icons8-pokemon-96.png"
-              id="generalTheme"
-            ></img>
+              id="generalTheme">
+            </img>
         </button>
       </div>
     </header>
-    <main id="pMain"></main>
+    <main id="pMain">
+      <div class="modes">
+        <h2 class="modeTitle">Choose a level</h2>
+        <div class="boxModes">
+          <button id="customMode">
+            Custom
+          </button>
+          <button id="aleatory">
+            Aleatory
+          </button>
+          <button id="hard">
+            Hard
+          </button>
+          <button id="despair">
+            Despair
+          </button>
+          <!-- Based on selected level, unlock others options below -->
+        </div>
+      </div>
+      <div id="types">
+        <h2 class="typeTitle">types</h2>
+        <div class="boxTypes">
+          <button class=" icon Dark" title="Dark">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Dark.svg" alt="Dark">
+          </button>
+          <button class="icon Grass" title="Grass">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Grass.svg" alt="Grass">
+          </button>
+          <button class="icon Bug" title="Bug">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Bug.svg" alt="Bug">
+          </button>
+          <button class="icon Fairy" title="Fairy">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Fairy.svg" alt="Fairy">
+          </button>
+          <button class="icon Ground"title="Ground">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Ground.svg" alt="Ground">
+          </button>
+          <button class="icon Poison" title="Poison">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Poison.svg" alt="Poison">
+          </button>
+          <button class="icon Fighting" title="Fighting">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Fighting.svg" alt="Fighting">
+          </button>
+          <button class="icon Psychic" title="Psychic">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Psychic.svg" alt="Psychic">
+          </button>
+          <button class="icon Dragon" title="Dragon">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Dragon.svg" alt="Dragon">
+          </button>
+          <button class="icon Flying" title="Flying">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Flying.svg" alt="Flying">
+          </button>
+          <button class="icon Ice" title="Ice">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Ice.svg" alt="Ice">
+          </button>
+          <button class="icon Rock" title="Rock">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Rock.svg" alt="Rock">
+          </button>
+          <button class="icon Fire" title="Fire">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Fire.svg" alt="Fire">
+          </button>
+          <button class="icon Water" title="Water">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Water.svg" alt="Water">
+          </button>
+          <button class="icon Eletric" title="Eletric">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Electric.svg" alt="Eletric">
+          </button>
+          <button class="icon Ghost" title="Ghost">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Ghost.svg" alt="Ghost">
+          </button>
+          <button class="icon Normal" title="Normal">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Normal.svg" alt="Normal">
+          </button>
+          <button class="icon Steel" title="Steel">
+            <img src="../assets/typesOfPokemon/Pokemon_Type_Icon_Steel.svg" alt="Steel">
+          </button>
+        </div>
+      </div>
+    </main>
     <footer id="pFooter"></footer>
 
     <script type="module" src="theme/theme.js"></script>
